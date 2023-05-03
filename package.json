@@ -1,0 +1,14 @@
+{
+  "name": "chandan",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "npm start --prefix server",
+    "client": "npm start --prefix client",
+    "start":"npm run server & client"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
